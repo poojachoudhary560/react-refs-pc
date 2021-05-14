@@ -14,10 +14,9 @@ class LoginForm extends Component {
   }
 
   componentDidMount() {
-    //this.username.focus();
-
-    //find
-    ReactDOM.findDOMNode(this.username.current).focus();
+    this.username.current.focus();
+    //findDOMNode is deprecated in strict mode
+    // ReactDOM.findDOMNode(this.username.current).focus();
   }
 
   handleSubmit = e => {
