@@ -6,7 +6,7 @@ import CallbackRefComponent from './classComponents/callbackRefComponent';
 import CallbackRefParentComponent from './classComponents/callbackRefParentChild/callbackRefParentComponent';
 import StringRefComponent from './classComponents/stringRefComponent';
 import ForwardRefParentComponent from './classComponents/forwardRefParentChild/forwardRefParentComponent';
-import LoginForm from './classComponents/form/LoginForm';
+import LoginForm from './classComponents/form/loginForm';
 
 export default function App() {
   return (
