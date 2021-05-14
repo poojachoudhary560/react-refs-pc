@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 
 class LoginForm extends Component {
   constructor(props) {
@@ -10,6 +11,13 @@ class LoginForm extends Component {
     this.state = {
       errors: []
     };
+  }
+
+  componentDidMount() {
+    //this.username.focus();
+
+    //find
+    ReactDOM.findDOMNode(this.username.current).focus();
   }
 
   handleSubmit = e => {
